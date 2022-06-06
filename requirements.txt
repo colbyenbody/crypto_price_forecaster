@@ -1,3 +1,5 @@
 numpy
+Cython
+fbprophet
 voila
 matplotlib
