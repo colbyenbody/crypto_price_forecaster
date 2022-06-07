@@ -10,4 +10,5 @@ dependencies:
   - scipy
   - pystan
   - prophet
+  - plotly
 prefix: C:\Users\Colby\anaconda3\envs\stan_env
