@@ -1,5 +1,6 @@
 import pandas as pd
 from prophet import Prophet
+from prophet.plot import plot
 
 df = pd.read_csv('btcusd.csv')
 df = df[["Date", "Close"]]
@@ -15,6 +16,6 @@ print(future)
 forecast = prophet.predict(future)
 forecast[["ds", "yhat", "yhat_lower", "yhat_upper"]].tail(200)
 
-from prophet.plot import plot
-yearly_seasonality=True
 prophet.plot(forecast, figsize=(20, 10))
+
+print("test")
