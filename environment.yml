@@ -12,5 +12,3 @@ dependencies:
   - scipy
   - pystan
   - prophet
-  - streamlit
-prefix: C:\Users\Colby\anaconda3\envs\stan_env
